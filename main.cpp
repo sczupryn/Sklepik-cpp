@@ -257,6 +257,9 @@ void wyborKlienta(vector<Klient>& klienci){
         cin >> indeks;
         edycjaZamowienia(klient, indeks);
         break;
+    default:
+        cout << "Zly wybor" << endl;
+        break;
     }
 }
 
